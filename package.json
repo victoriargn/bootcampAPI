@@ -1,13 +1,8 @@
 {
   "name": "bootcampapi",
   "version": "1.0.0",
-  "description": "Bootcamp - testes em API",
+  "description": "Testes de API",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,14 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/victoriargn/bootcampAPI.git"
   },
-  "keywords": [
-    "bootcamp",
-    "api"
-  ],
-  "author": "Victoria\\vicregina.oliveira@gmail.com",
-  "license": "UNLICENSED",
+  "author": "Victoria Regina",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/victoriargn/bootcampAPI/issues"
   },
-  "homepage": "https://github.com/victoriargn/bootcampAPI#readme"
+  "homepage": "https://github.com/victoriargn/bootcampAPI#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "joi": "^17.6.0",
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.4"
+  }
 }

@@ -2,9 +2,9 @@
   "name": "bootcampapi",
   "version": "1.0.0",
   "description": "Testes de API",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "mocha": "mocha",
+    "test:dev": "mocha ./test/*/test.js --reporter mochawesome --timeout 10000"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "joi": "^17.6.0",
     "mocha": "^10.0.0",
     "supertest": "^6.2.4"
+  },
+  "dependencies": {
+    "mochawesome": "^7.1.3"
   }
 }
